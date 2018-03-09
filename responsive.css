@@ -1,0 +1,77 @@
+body {
+    background-color: antiquewhite;
+    font-family: "Lato" sans-serif;
+}
+
+#cover-photo {
+    margin: 0 auto;
+    display: inline;
+}
+
+#covpho {
+    width: 1200px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+ul {
+    list-style-type: none;
+    padding-top: 4px;
+}
+
+.navitem {
+    text-decoration: none;
+    color: saddlebrown;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.navitem:hover {
+    color: limegreen;
+}
+
+.navlist {
+    display: inline;
+}
+
+.navitem1 {
+    display: inline;
+    padding-right: 5px;
+    padding-top: 3px;
+
+}
+
+.navitem2 {
+    display: inline;
+    padding: 5px;
+}
+
+.navitem3 {
+    display: inline;
+    padding: 5px;
+}
+
+            /*  Body */
+
+.about {
+    background-color: yellow;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.bio-para {
+    /*background-color: white;*/
+}
+
+#keisan {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: 600px;
+     
+
+}
+
+
+
