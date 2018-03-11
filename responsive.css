@@ -2,7 +2,10 @@ body {
     background-color: antiquewhite;
     font-family: "Lato" sans-serif;
 }
-
+.labels {
+    font-family: "Lato" sans-serif;
+    color: saddlebrown;
+}
 #cover-photo {
     margin: 0 auto;
     display: inline;
@@ -14,12 +17,17 @@ body {
     display: block;
 }
 
-
+.nav {
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
 ul {
     list-style-type: none;
-    padding-top: 4px;
 }
 
+.navlist {
+    margin-left: 6px;
+}
 .navitem {
     text-decoration: none;
     color: saddlebrown;
@@ -33,6 +41,7 @@ ul {
 
 .navlist {
     display: inline;
+    padding-top: 10px;
 }
 
 .navitem1 {
@@ -55,23 +64,63 @@ ul {
             /*  Body */
 
 .about {
-    background-color: yellow;
-    width: 60%;
+    background-color: floralwhite;
+    width: 55%;
     margin: 0 auto;
+    height: 500px;
+
 }
 
 .bio-para {
-    /*background-color: white;*/
+    display:inline;
+    font-family: "Arial";
+    font-size: 16px;
+    text-align: justify-all;
+    margin-left: : 10px;
+    /*float:right;*/
+}
+
+#fname {
+    color: lightblue;
+    font-size: 20px;
+    padding: 15px 10px 10px 10px;
 }
 
 #keisan {
     width: 200px;
     height: 200px;
     display: block;
-    margin-left: 600px;
-     
+    float: right;
+    padding: 0px 0px 6px 8px; 
+} 
 
+.img_gallery {
+    background-color: #ab9a78;
+    width: 1200px;
+    height: 2000px;
+    margin: 5px 0px 0px 2px;
+    position: relative;
+    border-style: solid;
+    border: 2px;
+    border-color: saddlebrown;
 }
 
+.img01,.img02,.img03,.img04,.img05,.img06,.img07,.img08,.img09,.img10,.img11,.img12,.img13,.img14 {
+    width: 380px;
+    height: 430px;
+    margin: 0 auto;
+    float: right;
+    display: inline;
+    position: relative;
+}
+
+.item01,.item02,.item03,.item04,.item05,.item06,.item07,.item08,.item09,.item10,.item11,.item12,.item13,.item14 {
+    width: 70%;
+    height: 80%;
+    margin: 0 auto;
+    float: left;
+    display: inline-block;
+    position: relative;
+}
 
 
